@@ -1,0 +1,65 @@
+/* Header Styling */
+.navbar-main {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 8px; 
+    transition: all 0.3s ease-in-out; 
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3b3b3b;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #007bff;
+}
+
+.user-dropdown {
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 8px 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.user-dropdown:hover {
+    background-color: #f1f1f1;
+    color: #007bff;
+}
+
+.dropdown-menu {
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+
+.dropdown-item {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .navbar-main {
+        padding: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}

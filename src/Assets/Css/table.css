@@ -1,0 +1,84 @@
+/* Table Container */
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/* Table Styling */
+.common-table {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.common-table th,
+.common-table td {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+.common-table thead {
+    background-color: #1e3d58; /* Dark blue */
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.common-table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.common-table tbody tr:hover {
+    background-color: #f6f6f6;
+}
+
+.common-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Table Button Customization */
+.common-table td .btn-custom {
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid #1e3d58;
+    color: #1e3d58;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.common-table td .btn-custom:hover {
+    background-color: #1e3d58;
+    color: white;
+    border-color: transparent;
+}
+
+.common-table tbody tr td {
+    color: #777;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .common-table th, .common-table td {
+        padding: 12px 8px;
+        font-size: 12px;
+    }
+}
+
+.description-text {
+    max-width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

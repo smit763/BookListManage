@@ -1,0 +1,20 @@
+.h-100vh {
+    height: 100vh;
+}
+.max-h-500 {
+    max-height: 500px;
+}
+.min-w-800{
+  min-width: 800px;
+}
+
+/* hide Arrows from input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
